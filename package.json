@@ -1,0 +1,101 @@
+{
+  "name": "@rfgamaral/eslint-config-typescript-unified",
+  "description": "A unified ESLint configuration with sensible defaults for TypeScript projects.",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Ricardo Amaral",
+    "email": "master@ricardoamaral.net"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/rfgamaral/eslint-config-typescript-unified",
+  "bugs": "https://github.com/rfgamaral/eslint-config-typescript-unified/issues",
+  "keywords": [
+    "airbnb",
+    "code linter",
+    "code standards",
+    "code style",
+    "config",
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "hooks",
+    "lint",
+    "prettier",
+    "react",
+    "react-hooks",
+    "styleguide",
+    "typescript",
+    "unified"
+  ],
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "airbnb-react-hooks-semantics.js",
+    "airbnb-react-hooks.js",
+    "airbnb-react-semantics.js",
+    "airbnb-react.js",
+    "airbnb-semantics.js",
+    "airbnb.js",
+    "eslint-semantics.js",
+    "eslint.js",
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "semantics.js"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.5.0",
+    "@typescript-eslint/parser": "2.5.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.4.0",
+    "eslint-import-resolver-typescript": "2.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "1.7.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
+    "@semantic-release/changelog": "3.0.4",
+    "@semantic-release/git": "7.0.16",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "eslint": "6.5.1",
+    "husky": "3.0.9",
+    "prettier": "1.18.2",
+    "semantic-release": "15.13.27",
+    "typescript": "3.6.4"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0",
+    "prettier": "^1.18.0",
+    "typescript": "^3.3.0"
+  }
+}
