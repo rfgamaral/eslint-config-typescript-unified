@@ -11,9 +11,7 @@ A unified [ESLint](https://eslint.org/) configuration with sensible defaults for
 
 ## Installation
 
-This package provides multiple [ESLint Shareable Configurations](https://eslint.org/docs/developer-guide/shareable-configs) for your convenience. To make use of any of them, you must first install [`eslint`](https://github.com/eslint/eslint), [`prettier`](https://github.com/prettier/prettier) and [`typescript`](https://github.com/Microsoft/TypeScript) since this package does not do it for you.
-
-Install `@rfgamaral/eslint-config-typescript-unified` with:
+This package provides multiple [ESLint Shareable Configurations](https://eslint.org/docs/developer-guide/shareable-configs) for your convenience. To make use of any of them, you must first install [`eslint`](https://github.com/eslint/eslint), [`prettier`](https://github.com/prettier/prettier) and [`typescript`](https://github.com/Microsoft/TypeScript) since this package does not do it for you. Then install it with:
 
 ```sh
 # npm
@@ -79,7 +77,7 @@ Extends the Airbnb React configuration with [Hooks rules](https://github.com/air
 
 ### Semantics (type-checking)
 
-For all the configurations mentioned above, the TypeScript rules are fast feedback rules which operate purely based on syntax (no type-checking). If you want some additional highly valuable rules that operate on semantics (type-checking), just suffix any of the configuration names above with `-semantics`.
+For all the configurations mentioned above, the TypeScript rules are fast feedback rules which operate purely based on syntax (no type-checking). If you want some additional highly valuable rules that operate on semantics (type-checking), just suffix any of the configuration names above with `-semantics`. You can read a little bit more about it [here](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#usage).
 
 ## Frequently Asked Questions
 
