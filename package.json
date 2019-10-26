@@ -65,7 +65,8 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "test": "jest"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.5.0",
