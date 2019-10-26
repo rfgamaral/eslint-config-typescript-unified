@@ -65,6 +65,7 @@
   },
   "scripts": {
     "commit": "git-cz",
+    "eslint": "eslint './**/*.js'",
     "release": "semantic-release",
     "test": "jest"
   },
