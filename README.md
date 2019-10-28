@@ -1,9 +1,9 @@
 # @rfgamaral/eslint-config-typescript-unified
 
-![npm (scoped)](https://img.shields.io/npm/v/@rfgamaral/eslint-config-typescript-unified.svg)
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@rfgamaral/eslint-config-typescript-unified.svg)
-![npm](https://img.shields.io/npm/dt/@rfgamaral/eslint-config-typescript-unified.svg)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![npm](https://img.shields.io/npm/v/@rfgamaral/eslint-config-typescript-unified.svg)](https://www.npmjs.com/package/@rfgamaral/eslint-config-typescript-unified)
+[![minified size](https://img.shields.io/bundlephobia/min/@rfgamaral/eslint-config-typescript-unified.svg)](https://bundlephobia.com/result?p=@rfgamaral/eslint-config-typescript-unified)
+[![downloads](https://img.shields.io/npm/dt/@rfgamaral/eslint-config-typescript-unified.svg)](https://www.npmtrends.com/@rfgamaral/eslint-config-typescript-unified)
+[![commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![license](https://img.shields.io/npm/l/@rfgamaral/eslint-config-typescript-unified.svg)](LICENSE)
 
