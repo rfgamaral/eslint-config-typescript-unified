@@ -44,8 +44,6 @@
     "eslint-semantics.js",
     "eslint.js",
     "index.js",
-    "LICENSE",
-    "README.md",
     "semantics.js"
   ],
   "config": {
