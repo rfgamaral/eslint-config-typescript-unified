@@ -100,7 +100,7 @@
     "lint-staged": "10.0.0-1",
     "prettier": "1.19.1",
     "semantic-release": "15.13.30",
-    "typescript": "3.6.4"
+    "typescript": "3.7.2"
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
