@@ -1,3 +1,13 @@
+## [1.1.3](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.2...v1.1.3) (2019-12-09)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 2.8.0 to 2.10.0 ([#35](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/35)) ([6485ad6](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/6485ad677f2f9d9020e8e435c3188db5e1eb0063))
+* **deps:** bump @typescript-eslint/parser from 2.8.0 to 2.10.0 ([#36](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/36)) ([b01073b](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/b01073ba5d31a93b3fff8d3415f0afb0a1307d34))
+* **deps:** bump eslint-plugin-import from 2.18.2 to 2.19.1 ([#37](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/37)) ([9ae6b11](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/9ae6b11c5cca056351cc05e29cdc8560a17efe09))
+* **deps:** bump eslint-plugin-react from 7.16.0 to 7.17.0 ([#32](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/32)) ([cf8a82c](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/cf8a82cc424218f30d22d5acc1f783a06b8d5194))
+
 ## [1.1.2](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.1...v1.1.2) (2019-11-26)
 
 
