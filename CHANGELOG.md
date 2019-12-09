@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.3...v1.1.4) (2019-12-09)
+
+
+### Bug Fixes
+
+* **deps:** revert eslint-plugin-import to 2.18.2 from 2.19.1 ([80c8bbd](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/80c8bbd23e4a6bd6ad62423c68bbc1b287f97f77))
+
 ## [1.1.3](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.2...v1.1.3) (2019-12-09)
 
 
