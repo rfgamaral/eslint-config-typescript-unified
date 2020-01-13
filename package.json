@@ -90,7 +90,7 @@
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "@semantic-release/changelog": "3.0.6",
-    "@semantic-release/git": "7.0.18",
+    "@semantic-release/git": "8.0.0",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "6.8.0",
@@ -99,7 +99,7 @@
     "jest": "24.9.0",
     "lint-staged": "10.0.0-1",
     "prettier": "1.19.1",
-    "semantic-release": "15.14.0",
+    "semantic-release": "16.0.1",
     "typescript": "3.7.4"
   },
   "peerDependencies": {
