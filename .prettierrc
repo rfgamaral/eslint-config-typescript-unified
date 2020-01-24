@@ -9,6 +9,7 @@
         ".*rc"
       ],
       "options": {
+        "parser": "json",
         "printWidth": 0,
         "tabWidth": 2
       }

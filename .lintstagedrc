@@ -1,5 +1,8 @@
 {
   "./**/*.js": [
     "eslint --fix"
+  ],
+  "./.*rc": [
+    "prettier --write"
   ]
 }
