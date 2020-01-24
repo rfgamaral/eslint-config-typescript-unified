@@ -6,9 +6,7 @@
     {
       "files": [
         "*.json",
-        ".eslintrc",
-        ".prettierrc",
-        ".releaserc"
+        ".*rc"
       ],
       "options": {
         "printWidth": 0,
