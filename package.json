@@ -46,27 +46,6 @@
     "index.js",
     "semantics.js"
   ],
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "./**/*.js": [
-      "eslint --fix"
-    ]
-  },
   "scripts": {
     "commit": "git-cz",
     "eslint": "eslint './**/*.js'",
