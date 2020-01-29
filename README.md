@@ -1,5 +1,7 @@
 # @rfgamaral/eslint-config-typescript-unified
 
+[![development ci](https://github.com/rfgamaral/eslint-config-typescript-unified/workflows/Development%20CI/badge.svg)](https://github.com/rfgamaral/eslint-config-typescript-unified/actions?query=workflow%3A%22Development+CI%22)
+[![codecov](https://codecov.io/gh/rfgamaral/eslint-config-typescript-unified/branch/master/graph/badge.svg)](https://codecov.io/gh/rfgamaral/eslint-config-typescript-unified)
 [![npm](https://img.shields.io/npm/v/@rfgamaral/eslint-config-typescript-unified.svg)](https://www.npmjs.com/package/@rfgamaral/eslint-config-typescript-unified)
 [![minified size](https://img.shields.io/bundlephobia/min/@rfgamaral/eslint-config-typescript-unified.svg)](https://bundlephobia.com/result?p=@rfgamaral/eslint-config-typescript-unified)
 [![downloads](https://img.shields.io/npm/dt/@rfgamaral/eslint-config-typescript-unified.svg)](https://www.npmtrends.com/@rfgamaral/eslint-config-typescript-unified)
