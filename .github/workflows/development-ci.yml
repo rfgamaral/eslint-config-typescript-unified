@@ -1,0 +1,57 @@
+name: Development CI
+
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test-node-module:
+    name: Test with Node.js ${{ matrix.node-version }}
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version:
+          - 8.x
+          - 10.x
+          - 12.x
+        include:
+          - node-version: 8.x
+            yarn-install-flag: '--ignore-engines'
+          - node-version: 10.x
+            yarn-install-flag: ''
+          - node-version: 12.x
+            yarn-install-flag: ''
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+
+      - name: Setup Node.js ${{ matrix.node-version }} environment
+        uses: actions/setup-node@master
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install all project dependencies
+        run: yarn install ${{ matrix.yarn-install-flag }}
+
+      - name: Perform static code analysis
+        run: yarn run eslint
+
+      - name: Perform unit testing
+        run: yarn run test:ci
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@master
+        with:
+          name: Node.js ${{ matrix.node-version }}
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage/lcov.info
+          flags: unit
+          fail_ci_if_error: true
