@@ -1,5 +1,13 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":label(dependencies)",
+    ":prHourlyLimitNone",
+    ":timezone(Europe/Lisbon)",
+    "schedule:earlyMondays"
+  ],
+  "postUpdateOptions": [
+    "yarnDedupeHighest"
   ]
 }
