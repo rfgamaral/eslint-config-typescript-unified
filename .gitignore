@@ -1,6 +1,9 @@
 # Visual Studio Code
 .vscode/
 
+# Coverage report output
+coverage/
+
 # Project dependencies
 node_modules/
 
