@@ -50,7 +50,9 @@
     "commit": "git-cz",
     "eslint": "eslint './**/*.js'",
     "release": "semantic-release",
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --coverage --colors",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.13.0",
