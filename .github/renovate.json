@@ -3,7 +3,9 @@
     "config:base",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":label(dependencies)",
-    ":prHourlyLimitNone",
+    ":masterIssue",
+    ":prConcurrentLimit10",
+    ":prHourlyLimit4",
     ":timezone(Europe/Lisbon)",
     "schedule:earlyMondays"
   ],
