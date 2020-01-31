@@ -13,7 +13,18 @@ describe('Airbnb', () => {
                 ],
                 parser: '@typescript-eslint/parser',
                 parserOptions: { project: './tsconfig.json' },
-                rules: { 'no-undef': 'off' },
+                rules: {
+                    'no-undef': 'off',
+                    'import/extensions': [
+                        'error',
+                        'ignorePackages',
+                        {
+                            js: 'never',
+                            mjs: 'never',
+                            ts: 'never',
+                        },
+                    ],
+                },
                 settings: {
                     'import/extensions': ['.js', '.mjs', '.ts'],
                     'import/ignore': [
@@ -21,7 +32,12 @@ describe('Airbnb', () => {
                         '\\.d\\.ts$',
                         '\\.(coffee|scss|css|less|hbs|svg|json)$',
                     ],
-                    'import/resolver': { typescript: { alwaysTryTypes: false } },
+                    'import/resolver': {
+                        node: {
+                            extensions: ['.mjs', '.js', '.json', '.ts'],
+                        },
+                        typescript: { alwaysTryTypes: false },
+                    },
                 },
             });
         });

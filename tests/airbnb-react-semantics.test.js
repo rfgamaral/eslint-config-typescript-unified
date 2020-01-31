@@ -14,7 +14,20 @@ describe('Airbnb (React)', () => {
                 ],
                 parser: '@typescript-eslint/parser',
                 parserOptions: { project: './tsconfig.json' },
-                rules: { 'no-undef': 'off' },
+                rules: {
+                    'no-undef': 'off',
+                    'import/extensions': [
+                        'error',
+                        'ignorePackages',
+                        {
+                            js: 'never',
+                            mjs: 'never',
+                            ts: 'never',
+                            jsx: 'never',
+                            tsx: 'never',
+                        },
+                    ],
+                },
                 settings: {
                     'import/extensions': ['.js', '.mjs', '.ts', '.jsx', '.tsx'],
                     'import/ignore': [
@@ -22,7 +35,12 @@ describe('Airbnb (React)', () => {
                         '\\.d\\.ts$',
                         '\\.(coffee|scss|css|less|hbs|svg|json)$',
                     ],
-                    'import/resolver': { typescript: { alwaysTryTypes: false } },
+                    'import/resolver': {
+                        node: {
+                            extensions: ['.mjs', '.js', '.json', '.ts', '.jsx', '.tsx'],
+                        },
+                        typescript: { alwaysTryTypes: false },
+                    },
                 },
             });
         });
