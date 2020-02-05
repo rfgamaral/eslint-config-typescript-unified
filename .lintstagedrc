@@ -2,6 +2,9 @@
   "./**/*.js": [
     "eslint --fix"
   ],
+  "./**/*.{json,yml}": [
+    "prettier --write"
+  ],
   "./.*rc": [
     "prettier --write"
   ]
