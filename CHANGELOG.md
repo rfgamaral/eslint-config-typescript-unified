@@ -1,3 +1,14 @@
+## [1.1.6](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.5...v1.1.6) (2020-02-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.20.1 ([#94](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/94)) ([d5c0b59](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/d5c0b599506d103e91779efda6775c74e3d27f43))
+* **deps:** update dependency eslint-plugin-react to v7.18.3 ([#95](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/95)) ([1b0999e](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/1b0999e57d7f2301214934acb2f8f09dd07cdded))
+* **deps:** update typescript-eslint monorepo to v2.19.0 ([#96](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/96)) ([b5e14cb](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/b5e14cb6b28ba64d06ea35b9d4ab8b4275a42e3e))
+* **deps:** update typescript-eslint monorepo to v2.19.2 ([#100](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/100)) ([d5cfba8](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/d5cfba8662d3e68491562b47870808a01b86d5de))
+* **deps:** update typescript-eslint monorepo to v2.20.0 ([#104](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/104)) ([1e55b0f](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/1e55b0fad89c42522d5a394907281df96666be4a))
+
 ## [1.1.5](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.4...v1.1.5) (2020-01-31)
 
 
