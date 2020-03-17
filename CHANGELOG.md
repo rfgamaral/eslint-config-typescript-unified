@@ -1,3 +1,15 @@
+## [1.1.7](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.6...v1.1.7) (2020-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb to v18.1.0 ([#112](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/112)) ([8ae9f7b](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/8ae9f7bea914553edd9ca7786d66983da52277d5))
+* **deps:** update dependency eslint-config-airbnb-base to v14.1.0 ([#113](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/113)) ([cdc1b81](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/cdc1b819f9dd618643680c537ec3d6709f19946d))
+* **deps:** update dependency eslint-plugin-react to v7.19.0 ([#110](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/110)) ([ec357d3](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/ec357d3d4d760d3853abe2892bb6ceabe54eb066))
+* **deps:** update dependency eslint-plugin-react-hooks to v2 ([#92](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/92)) ([eefe0bc](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/eefe0bc5c9e7081d0e0302560aad16903e089976))
+* **deps:** update typescript-eslint monorepo to v2.21.0 ([#108](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/108)) ([98bcde5](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/98bcde59b1f2c8556abd37ed01ec4b77bf10f326))
+* **deps:** update typescript-eslint monorepo to v2.23.0 ([#111](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/111)) ([346f93a](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/346f93accac818f3053f85db766ee4aadef5cdd9))
+
 ## [1.1.6](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.5...v1.1.6) (2020-02-24)
 
 
