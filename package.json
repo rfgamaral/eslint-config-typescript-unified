@@ -1,7 +1,7 @@
 {
   "name": "@rfgamaral/eslint-config-typescript-unified",
   "description": "A unified ESLint configuration with sensible defaults for TypeScript projects.",
-  "version": "1.1.7",
+  "version": "2.0.0",
   "main": "./index.js",
   "author": {
     "name": "Ricardo Amaral",

@@ -1,3 +1,22 @@
+# [2.0.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.7...v2.0.0) (2020-03-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v6.10.1 ([#114](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/114)) ([d500413](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/d500413a2025b85ad386d7967c6f511ec78a107c))
+* **deps:** update dependency eslint-plugin-react-hooks to v2.5.1 ([#115](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/115)) ([003e0ad](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/003e0adfbb2cab341f818d4f181eb9812709882a))
+* **deps:** update typescript-eslint monorepo to v2.24.0 ([#116](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/116)) ([ed1878c](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/ed1878c83836f4ce39d6c8a12d6848cdf2c7efb7))
+
+
+### chore
+
+* **peers:** update dependency prettier to v2 ([6cb1dcc](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/6cb1dcc09cb1644a52feb887eebf591ff3e54f68))
+
+
+### BREAKING CHANGES
+
+* **peers:** drop support for Prettier v1.x
+
 ## [1.1.7](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v1.1.6...v1.1.7) (2020-03-17)
 
 
