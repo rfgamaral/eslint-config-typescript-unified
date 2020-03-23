@@ -29,7 +29,7 @@
     "unified"
   ],
   "engines": {
-    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+    "node": "^10.13.0 || >=11.10.1"
   },
   "publishConfig": {
     "access": "public"
@@ -85,7 +85,7 @@
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
-    "prettier": "^1.18.0",
+    "prettier": "^2.0.0",
     "typescript": "^3.3.0"
   }
 }
