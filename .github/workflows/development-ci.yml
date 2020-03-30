@@ -22,9 +22,7 @@ jobs:
           - 12.x
         include:
           - node-version: 10.x
-            yarn-install-flag: ''
           - node-version: 12.x
-            yarn-install-flag: ''
 
     steps:
       - name: Checkout repository
@@ -36,7 +34,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install all project dependencies
-        run: yarn install ${{ matrix.yarn-install-flag }}
+        run: yarn install
 
       - name: Perform static code analysis
         run: yarn run eslint
