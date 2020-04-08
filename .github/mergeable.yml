@@ -1,0 +1,18 @@
+version: 2
+
+mergeable:
+  - when: pull_request.*, pull_request_review.*
+    validate:
+      - do: title
+        must_include:
+          regex: ^(build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test)(\(\w+\))?:.+$
+      - do: description
+        no_empty:
+          enabled: true
+      - do: label
+        must_exclude:
+          regex: 'BLOCKED'
+      - do: dependent
+        changed:
+          file: 'package.json'
+          files: ['yarn.lock']
