@@ -4,14 +4,18 @@ mergeable:
   - when: pull_request.*, pull_request_review.*
     validate:
       - do: title
-        must_include:
-          regex: ^(build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test)(\(\w+\))?:.+$
+        must_include: &regex_conventional_commits
+          regex: '^(build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test)(\([a-z0-9_-]+\))?: [^\s].+$'
+          regex_flag: 'none'
+      - do: commit
+        message: *regex_conventional_commits
       - do: description
         no_empty:
           enabled: true
       - do: label
         must_exclude:
           regex: 'BLOCKED'
+          regex_flag: 'none'
       - do: dependent
         changed:
           file: 'package.json'
