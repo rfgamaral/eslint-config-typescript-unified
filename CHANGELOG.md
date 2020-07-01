@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.1.0...v3.2.0) (2020-07-01)
+
+
+### Features
+
+* **recommended:** include configurations in the tarball ([c99b321](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/c99b32191ada7613ef941420f3481922f193d657))
+
 # [3.1.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.0.0...v3.1.0) (2020-07-01)
 
 
