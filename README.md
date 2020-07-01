@@ -133,7 +133,7 @@ Recommended configurations require explicit return types on functions and class 
     {
       "files": ["*.js", "*.jsx"],
       "rules": {
-        "@typescript-eslint/explicit-function-return-type": ["error"]
+        "@typescript-eslint/explicit-function-return-type": "off"
       }
     }
   ]
