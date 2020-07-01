@@ -77,6 +77,36 @@ Extends the Airbnb React configuration with [Hooks rules](https://github.com/air
 }
 ```
 
+### Recommended
+
+Extends the Airbnb configuration with my own [opinionated rules](https://github.com/rfgamaral/eslint-config-typescript-unified/blob/master/tests/recommended.test.js):
+
+```json
+{
+    "extends": "@rfgamaral/eslint-config-typescript-unified/recommended"
+}
+```
+
+### Recommended (React)
+
+Extends the Airbnb (React) configuration with my own [opinionated rules](https://github.com/rfgamaral/eslint-config-typescript-unified/blob/master/tests/recommended-react.test.js):
+
+```json
+{
+    "extends": "@rfgamaral/eslint-config-typescript-unified/recommended-react"
+}
+```
+
+### Recommended (React + Hooks)
+
+Extends the Airbnb (React + Hooks) configuration with my own [opinionated rules](https://github.com/rfgamaral/eslint-config-typescript-unified/blob/master/tests/recommended-react-hooks.test.js):
+
+```json
+{
+    "extends": "@rfgamaral/eslint-config-typescript-unified/recommended-react-hooks"
+}
+```
+
 ### Semantics (type-checking)
 
 For all the configurations mentioned above, the TypeScript rules are fast feedback rules which operate purely based on syntax (no type-checking). If you want some additional highly valuable rules that operate on semantics (type-checking), just suffix any of the configuration names above with `-semantics`. You can read a little bit more about it [here](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#usage).
@@ -89,9 +119,26 @@ This rule is disabled to prevent ESLint from reporting `no-undef` false positive
 
 The TypeScript compiler will catch undeclared variables by default, so we don't need this rule.
 
-### Why are `*.d.ts` files being ignored for all Airbnb configurations?
+### Why are `*.d.ts` files being ignored for all Airbnb and Recommended configurations?
 
-Airbnb configurations make use of [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import) which triggers `import/no-cycle` false positives for cyclic dependencies between `type` imports. More details at [benmosher/eslint-plugin-import#1453](https://github.com/benmosher/eslint-plugin-import/issues/1453).
+Airbnb and Recommended configurations make use of [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import) which triggers `import/no-cycle` false positives for cyclic dependencies between `type` imports. More details at [benmosher/eslint-plugin-import#1453](https://github.com/benmosher/eslint-plugin-import/issues/1453).
+
+### How to configure a mixed JavaScript/TypeScript codebase with any of the Recommended configurations?
+
+Recommended configurations require explicit return types on functions and class methods ([explicit-function-return-type](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md)) which triggers false positives for JavaScript files. To workaround that, please ensure add the following override to disable the rule for `.js` and `.jsx` files:
+
+```json
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": ["error"]
+      }
+    }
+  ]
+}
+```
 
 ## License
 
