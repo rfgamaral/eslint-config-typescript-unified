@@ -1,4 +1,4 @@
 module.exports = {
     collectCoverage: false,
-    collectCoverageFrom: ['./**/*.js', '!**/node_modules/**', '!./jest.config.js'],
+    collectCoverageFrom: ['./**/*.js', '!./coverage/**', '!./node_modules/**', '!./*.config.js'],
 };
