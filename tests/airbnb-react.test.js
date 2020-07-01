@@ -5,6 +5,7 @@ describe('Airbnb (React)', () => {
         expect(airbnbReactConfiguration).toEqual({
             extends: [
                 'airbnb',
+                'plugin:import/typescript',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:prettier/recommended',
                 'prettier/@typescript-eslint',
@@ -19,25 +20,23 @@ describe('Airbnb (React)', () => {
                     'ignorePackages',
                     {
                         js: 'never',
+                        jsx: 'never',
                         mjs: 'never',
                         ts: 'never',
-                        jsx: 'never',
                         tsx: 'never',
                     },
                 ],
             },
             settings: {
-                'import/extensions': ['.js', '.mjs', '.ts', '.jsx', '.tsx'],
                 'import/ignore': [
                     'node_modules',
                     '\\.d\\.ts$',
                     '\\.(coffee|scss|css|less|hbs|svg|json)$',
                 ],
                 'import/resolver': {
-                    node: {
-                        extensions: ['.mjs', '.js', '.json', '.ts', '.jsx', '.tsx'],
+                    typescript: {
+                        alwaysTryTypes: false,
                     },
-                    typescript: { alwaysTryTypes: false },
                 },
             },
         });

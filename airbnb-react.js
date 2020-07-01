@@ -4,7 +4,7 @@ const airbnbConfiguration = require('./airbnb');
 
 module.exports = {
     ...airbnbConfiguration,
-    extends: ['airbnb', ...airbnbConfiguration.extends.splice(1, 3), 'prettier/react'],
+    extends: ['airbnb', ...airbnbConfiguration.extends.splice(1, 4), 'prettier/react'],
     rules: {
         ...airbnbConfiguration.rules,
         'import/extensions': [
@@ -15,23 +15,5 @@ module.exports = {
                 tsx: 'never',
             },
         ],
-    },
-    settings: {
-        ...airbnbConfiguration.settings,
-        'import/extensions': [
-            ...airbnbConfiguration.settings['import/extensions'],
-            ...['.jsx', '.tsx'],
-        ],
-        'import/resolver': {
-            ...airbnbConfiguration.settings['import/resolver'],
-            node: {
-                ...airbnbConfiguration.settings['import/resolver'].node,
-                extensions: [
-                    ...airbnbConfiguration.settings['import/resolver'].node.extensions,
-                    '.jsx',
-                    '.tsx',
-                ],
-            },
-        },
     },
 };

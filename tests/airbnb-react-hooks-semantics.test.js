@@ -7,6 +7,7 @@ describe('Airbnb (React + Hooks)', () => {
                 extends: [
                     'airbnb',
                     'airbnb/hooks',
+                    'plugin:import/typescript',
                     'plugin:@typescript-eslint/recommended',
                     'plugin:@typescript-eslint/recommended-requiring-type-checking',
                     'plugin:prettier/recommended',
@@ -30,17 +31,15 @@ describe('Airbnb (React + Hooks)', () => {
                     ],
                 },
                 settings: {
-                    'import/extensions': ['.js', '.mjs', '.ts', '.jsx', '.tsx'],
                     'import/ignore': [
                         'node_modules',
                         '\\.d\\.ts$',
                         '\\.(coffee|scss|css|less|hbs|svg|json)$',
                     ],
                     'import/resolver': {
-                        node: {
-                            extensions: ['.mjs', '.js', '.json', '.ts', '.jsx', '.tsx'],
+                        typescript: {
+                            alwaysTryTypes: false,
                         },
-                        typescript: { alwaysTryTypes: false },
                     },
                 },
             });

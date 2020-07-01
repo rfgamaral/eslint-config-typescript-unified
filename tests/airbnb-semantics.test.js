@@ -6,6 +6,7 @@ describe('Airbnb', () => {
             expect(airbnbSemanticsConfiguration).toEqual({
                 extends: [
                     'airbnb-base',
+                    'plugin:import/typescript',
                     'plugin:@typescript-eslint/recommended',
                     'plugin:@typescript-eslint/recommended-requiring-type-checking',
                     'plugin:prettier/recommended',
@@ -26,17 +27,15 @@ describe('Airbnb', () => {
                     ],
                 },
                 settings: {
-                    'import/extensions': ['.js', '.mjs', '.ts'],
                     'import/ignore': [
                         'node_modules',
                         '\\.d\\.ts$',
                         '\\.(coffee|scss|css|less|hbs|svg|json)$',
                     ],
                     'import/resolver': {
-                        node: {
-                            extensions: ['.mjs', '.js', '.json', '.ts'],
+                        typescript: {
+                            alwaysTryTypes: false,
                         },
-                        typescript: { alwaysTryTypes: false },
                     },
                 },
             });
