@@ -44,6 +44,12 @@
     "eslint-semantics.js",
     "eslint.js",
     "index.js",
+    "recommended-react-hooks-semantics.js",
+    "recommended-react-hooks.js",
+    "recommended-react-semantics.js",
+    "recommended-react.js",
+    "recommended-semantics.js",
+    "recommended.js",
     "semantics.js"
   ],
   "scripts": {
