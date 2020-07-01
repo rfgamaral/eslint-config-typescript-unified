@@ -1,3 +1,22 @@
+# [3.1.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.0.0...v3.1.0) (2020-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.22.0 ([#176](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/176)) ([835b2cb](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/835b2cba48597ed698eba8f36c28bee0c9c707fa))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.3.1 ([#170](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/170)) ([c60ee8b](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/c60ee8b1b4dae1b1e557a831304873e58673460b))
+* **deps:** update dependency eslint-plugin-react to v7.20.1 ([#177](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/177)) ([8df3b71](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/8df3b71384237e5f4255dc8ff2a127f8ebab0335))
+* **deps:** update dependency eslint-plugin-react to v7.20.3 ([#179](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/179)) ([b6219fe](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/b6219fe02145056fc86694ec45be63980756fe00))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.0.5 ([#180](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/180)) ([d3060b2](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/d3060b2f8056c60de71530b2cf421e197d146bc1))
+* **deps:** update typescript-eslint monorepo to v3.4.0 ([#178](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/178)) ([cd1463b](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/cd1463b2ad0778f2e4c9e985daebd89c85948298))
+* **deps:** update typescript-eslint monorepo to v3.5.0 ([#181](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/181)) ([59b6a4f](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/59b6a4f8901da1834b585f9e6168567dc6467bd1))
+
+
+### Features
+
+* **react:** extend from `plugin:import/typescript` ([8250e97](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/8250e970421fd750957bbe53c18ff1702839010a))
+* **recommended:** new set of opinionated rules ([b06e51a](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/b06e51a5b6061c7355bdbe1282014281e4e524e8))
+
 # [3.0.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v2.0.0...v3.0.0) (2020-06-19)
 
 
