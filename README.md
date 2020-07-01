@@ -33,7 +33,7 @@ Default configuration with recommended rules from [`@typescript-eslint/eslint-pl
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified"
+  "extends": "@rfgamaral/eslint-config-typescript-unified"
 }
 ```
 
@@ -43,7 +43,7 @@ Extends the default configuration with [recommended rules](https://eslint.org/do
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/eslint"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/eslint"
 }
 ```
 
@@ -53,7 +53,7 @@ Extends the default configuration with [base rules](https://github.com/airbnb/ja
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/airbnb"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/airbnb"
 }
 ```
 
@@ -63,7 +63,7 @@ Extends the Airbnb configuration with [React rules](https://github.com/airbnb/ja
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/airbnb-react"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/airbnb-react"
 }
 ```
 
@@ -73,7 +73,7 @@ Extends the Airbnb React configuration with [Hooks rules](https://github.com/air
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/airbnb-react-hooks"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/airbnb-react-hooks"
 }
 ```
 
@@ -83,7 +83,7 @@ Extends the Airbnb configuration with my own [opinionated rules](https://github.
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/recommended"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/recommended"
 }
 ```
 
@@ -93,7 +93,7 @@ Extends the Airbnb (React) configuration with my own [opinionated rules](https:/
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/recommended-react"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/recommended-react"
 }
 ```
 
@@ -103,7 +103,7 @@ Extends the Airbnb (React + Hooks) configuration with my own [opinionated rules]
 
 ```json
 {
-    "extends": "@rfgamaral/eslint-config-typescript-unified/recommended-react-hooks"
+  "extends": "@rfgamaral/eslint-config-typescript-unified/recommended-react-hooks"
 }
 ```
 
