@@ -87,7 +87,7 @@
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
     "semantic-release": "17.1.1",
-    "typescript": "3.9.5"
+    "typescript": "3.9.6"
   },
   "peerDependencies": {
     "eslint": "^6.8 || >=7.2",
