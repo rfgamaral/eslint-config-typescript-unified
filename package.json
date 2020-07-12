@@ -61,8 +61,8 @@
     "test:watch": "jest --watchAll"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "3.5.0",
-    "@typescript-eslint/parser": "3.5.0",
+    "@typescript-eslint/eslint-plugin": "3.6.0",
+    "@typescript-eslint/parser": "3.6.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.11.0",
