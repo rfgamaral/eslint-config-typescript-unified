@@ -5,8 +5,8 @@ const defaultConfiguration = require('.');
 module.exports = {
     ...defaultConfiguration,
     extends: [
-        ...defaultConfiguration.extends.splice(0, 1),
+        ...defaultConfiguration.extends.slice(0, 1),
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        ...defaultConfiguration.extends,
+        ...defaultConfiguration.extends.slice(1, defaultConfiguration.extends.length),
     ],
 };

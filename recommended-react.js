@@ -4,13 +4,17 @@ const recommendedConfiguration = require('./recommended');
 
 module.exports = {
     ...recommendedConfiguration,
-    extends: ['airbnb', ...recommendedConfiguration.extends.splice(1, 4), 'prettier/react'],
+    extends: [
+        'airbnb',
+        ...recommendedConfiguration.extends.slice(1, recommendedConfiguration.extends.length),
+        'prettier/react',
+    ],
     rules: {
         ...recommendedConfiguration.rules,
         'import/extensions': [
-            ...recommendedConfiguration.rules['import/extensions'].splice(0, 2),
+            ...recommendedConfiguration.rules['import/extensions'].slice(0, 2),
             {
-                ...recommendedConfiguration.rules['import/extensions'][0],
+                ...recommendedConfiguration.rules['import/extensions'][2],
                 jsx: 'never',
                 tsx: 'never',
             },

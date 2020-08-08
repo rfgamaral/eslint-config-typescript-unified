@@ -5,8 +5,11 @@ const recommendedReactConfiguration = require('./recommended-react');
 module.exports = {
     ...recommendedReactConfiguration,
     extends: [
-        ...recommendedReactConfiguration.extends.splice(0, 1),
+        ...recommendedReactConfiguration.extends.slice(0, 1),
         'airbnb/hooks',
-        ...recommendedReactConfiguration.extends,
+        ...recommendedReactConfiguration.extends.slice(
+            1,
+            recommendedReactConfiguration.extends.length
+        ),
     ],
 };

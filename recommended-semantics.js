@@ -5,8 +5,8 @@ const recommendedConfiguration = require('./recommended');
 module.exports = {
     ...recommendedConfiguration,
     extends: [
-        ...recommendedConfiguration.extends.splice(0, 3),
+        ...recommendedConfiguration.extends.slice(0, 3),
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        ...recommendedConfiguration.extends,
+        ...recommendedConfiguration.extends.slice(3, recommendedConfiguration.extends.length),
     ],
 };
