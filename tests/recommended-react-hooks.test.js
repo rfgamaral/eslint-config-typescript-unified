@@ -71,6 +71,12 @@ describe('Airbnb (React + Hooks)', () => {
                 ],
                 'import/prefer-default-export': 'off',
                 'prettier/prettier': 'warn',
+                'react/jsx-filename-extension': [
+                    'error',
+                    {
+                        extensions: ['.jsx', '.tsx'],
+                    },
+                ],
             },
             settings: {
                 'import/ignore': [

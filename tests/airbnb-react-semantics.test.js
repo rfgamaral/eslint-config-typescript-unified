@@ -28,6 +28,12 @@ describe('Airbnb (React)', () => {
                             tsx: 'never',
                         },
                     ],
+                    'react/jsx-filename-extension': [
+                        'error',
+                        {
+                            extensions: ['.jsx', '.tsx'],
+                        },
+                    ],
                 },
                 settings: {
                     'import/ignore': [
