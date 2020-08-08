@@ -1,3 +1,22 @@
+# [3.3.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.2.0...v3.3.0) (2020-08-08)
+
+
+### Bug Fixes
+
+* broken shareable configurations ([ef83e42](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/ef83e42b92d820e33c06829cd457b564c4e29f7f))
+* **deps:** update dependency eslint-import-resolver-typescript to v2.2.0 ([#198](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/198)) ([609fb40](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/609fb401747dc4b1453a927882a44b5a88cbd829))
+* **deps:** update dependency eslint-plugin-react to v7.20.5 ([#199](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/199)) ([9e89379](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/9e893798523ed3d7d0faf1fd89d4edaabce50772))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.0.7 ([#187](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/187)) ([285d51e](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/285d51e78e862beec59956437d476659c710edb1))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.0.8 ([#192](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/192)) ([8cff239](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/8cff239385f0d50f3c42972cf8fa25a37c1d89da))
+* **deps:** update typescript-eslint monorepo to v3.6.0 ([#188](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/188)) ([c918f35](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/c918f35dcac4357b4d41c90dbf9033f474d38c3a))
+* **deps:** update typescript-eslint monorepo to v3.6.1 ([#193](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/193)) ([40650e6](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/40650e6a0de9b28e734f1e98e5d86c2c3e7ffe30))
+* **deps:** update typescript-eslint monorepo to v3.8.0 ([#195](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/195)) ([5abf351](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/5abf3511c43b451a2c06fe9d18da35c2a146a01c))
+
+
+### Features
+
+* **react:** allow JSX inside `.tsx` files ([0217b93](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/0217b938e7a829e9cb2d71e5821df7bad45fc0db))
+
 # [3.2.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.1.0...v3.2.0) (2020-07-01)
 
 
