@@ -131,7 +131,7 @@ Recommended configurations require explicit return types on functions and class 
 {
   "overrides": [
     {
-      "files": ["*.js", "*.jsx"],
+      "files": ["*.{js,jsx}"],
       "rules": {
         "@typescript-eslint/explicit-function-return-type": "off"
       }
