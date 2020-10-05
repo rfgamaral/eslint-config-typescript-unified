@@ -1,15 +1,14 @@
 {
   "extends": [
-    "config:base",
+    "config:js-lib",
     ":automergeBranch",
     ":automergeDigest",
     ":automergeMinor",
+    ":dependencyDashboard",
     ":disablePeerDependencies",
-    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":enableVulnerabilityAlerts",
     ":label(dependencies)",
-    ":masterIssue",
-    ":prConcurrentLimit10",
-    ":prHourlyLimit4",
+    ":prHourlyLimitNone",
     ":timezone(Europe/Lisbon)",
     "schedule:monthly"
   ],
