@@ -6,7 +6,7 @@ mergeable:
       - do: title
         must_include: &regex_conventional_commits
           regex: '^(build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test)(\([a-z0-9_-]+\))?: [^\s].+$'
-          regex_flag: 'none'
+          regex_flag: 'm'
       - do: commit
         message: *regex_conventional_commits
       - do: description
