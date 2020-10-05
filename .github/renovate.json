@@ -1,9 +1,6 @@
 {
   "extends": [
     "config:js-lib",
-    ":automergeBranch",
-    ":automergeDigest",
-    ":automergeMinor",
     ":dependencyDashboard",
     ":disablePeerDependencies",
     ":enableVulnerabilityAlerts",
