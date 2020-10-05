@@ -1,13 +1,15 @@
 {
   "extends": [
     "config:js-lib",
+    ":automergeBranch",
+    ":automergeDigest",
+    ":automergeMinor",
     ":dependencyDashboard",
     ":disablePeerDependencies",
     ":enableVulnerabilityAlerts",
     ":label(dependencies)",
     ":prHourlyLimitNone",
-    ":timezone(Europe/Lisbon)",
-    "schedule:monthly"
+    ":timezone(Europe/Lisbon)"
   ],
   "postUpdateOptions": [
     "yarnDedupeHighest"
