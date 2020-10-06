@@ -1,14 +1,21 @@
 {
   "extends": [
     "config:base",
+    ":automergeBranch",
+    ":automergeDigest",
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks",
+    ":dependencyDashboard",
     ":disablePeerDependencies",
-    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":disableRateLimiting",
+    ":enableVulnerabilityAlerts",
     ":label(dependencies)",
-    ":masterIssue",
-    ":prConcurrentLimit10",
-    ":prHourlyLimit4",
+    ":pinAllExceptPeerDependencies",
     ":timezone(Europe/Lisbon)",
     "schedule:earlyMondays"
+  ],
+  "enabledManagers": [
+    "npm"
   ],
   "postUpdateOptions": [
     "yarnDedupeHighest"
