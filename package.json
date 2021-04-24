@@ -55,6 +55,7 @@
   "scripts": {
     "commit": "git-cz",
     "eslint": "eslint './**/*.js'",
+    "prepare": "husky install",
     "release": "semantic-release",
     "test": "jest",
     "test:ci": "jest --coverage --colors",
