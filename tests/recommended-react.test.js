@@ -8,8 +8,6 @@ describe('Recommended (React)', () => {
                 'plugin:import/typescript',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:prettier/recommended',
-                'prettier/@typescript-eslint',
-                'prettier/react',
             ],
             parser: '@typescript-eslint/parser',
             parserOptions: { project: './tsconfig.json' },

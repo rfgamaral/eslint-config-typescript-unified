@@ -7,7 +7,6 @@ module.exports = {
     extends: [
         'airbnb',
         ...recommendedConfiguration.extends.slice(1, recommendedConfiguration.extends.length),
-        'prettier/react',
     ],
     rules: {
         ...recommendedConfiguration.rules,
