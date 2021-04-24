@@ -1,3 +1,42 @@
+# [4.0.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.3.0...v4.0.0) (2021-04-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb to v18.2.1 ([ffcb262](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/ffcb2622017e7aafa7fb9f7cc8a4dc04cc5d66e8))
+* **deps:** update dependency eslint-config-airbnb-base to v14.2.1 ([311afde](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/311afde63b7bdc01314d90628e2a5b845897feff))
+* **deps:** update dependency eslint-config-prettier to v6.12.0 ([#226](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/226)) ([3b7382d](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/3b7382d824ad8d2d93602710e80e57eee0b25119))
+* **deps:** update dependency eslint-config-prettier to v6.15.0 ([40f80e1](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/40f80e1588ac1f85bcabd3ca3e513886ad726006))
+* **deps:** update dependency eslint-config-prettier to v8 ([#279](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/279)) ([947d078](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/947d0789463f2f428348c137a64de62ed44c2b73))
+* **deps:** update dependency eslint-import-resolver-typescript to v2.3.0 ([#227](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/227)) ([85387cd](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/85387cdafe1f2fe0a62fb3be8cdf77765d3f544e))
+* **deps:** update dependency eslint-import-resolver-typescript to v2.4.0 ([cfe1db9](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/cfe1db905c6cfa50b2189a5fad31b818788c9a0f))
+* **deps:** update dependency eslint-plugin-import to v2.22.1 ([#228](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/228)) ([869c87b](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/869c87b7e45bb1ada2874119a65279cb8d7f5079))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.4.1 ([e20e070](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/e20e0700f836777d4a335a27d76a1a0573bd4ce1))
+* **deps:** update dependency eslint-plugin-prettier to v3.3.0 ([07807f9](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/07807f9672ea74c61743a4f244a27868e745104a))
+* **deps:** update dependency eslint-plugin-prettier to v3.3.1 ([f8e0894](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/f8e0894380c0953400c839ae8e287ebadfd9e076))
+* **deps:** update dependency eslint-plugin-prettier to v3.4.0 ([b13b821](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/b13b821e5f02be99b13ab7107f911bd12a3b2913))
+* **deps:** update dependency eslint-plugin-react to v7.21.3 ([#229](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/229)) ([c3f3483](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/c3f3483172aa4fa7c5ccd8e49a1e08f1603bc512))
+* **deps:** update dependency eslint-plugin-react to v7.21.5 ([5459be3](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/5459be31cc9041730087f5d8d249b39aaaadb3e1))
+* **deps:** update dependency eslint-plugin-react to v7.22.0 ([b8cf177](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/b8cf17785ec4de63b2b983f2e24c57b2f488c3c1))
+* **deps:** update dependency eslint-plugin-react to v7.23.1 ([3da05bb](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/3da05bbde17ea9484185a6e80c8f6a18ea5a8222))
+* **deps:** update dependency eslint-plugin-react to v7.23.2 ([8d735c5](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/8d735c540e4f8fcfad1e10d7dff7e64694a16502))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.1.2 ([#230](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/230)) ([823df48](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/823df48f3aa257df7096af99886a24fddd328d88))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.2.0 ([1e09369](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/1e09369b09f2965b61c56a4d833a8afca9f36b07))
+* **deps:** update typescript-eslint monorepo to v4 ([#235](https://github.com/rfgamaral/eslint-config-typescript-unified/issues/235)) ([ddc20b2](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/ddc20b220dfa472c6b3c97a7e30503ed4c47ff18))
+* **deps:** update typescript-eslint monorepo to v4.22.0 ([7810c07](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/7810c074fd6909775f022dee68e4dc189b4e6b3f))
+
+
+### chore
+
+* **peers:** update ESLint peer dependency ([536e9ac](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/536e9ac22d01c640c87fb70bfd1fe748ba071502))
+* **peers:** update TypeScript peer dependency ([090aec7](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/090aec79225593b64d8658ff9a745f1944ced906))
+
+
+### BREAKING CHANGES
+
+* **peers:** drop support for TypeScript below v4.2
+* **peers:** drop support for ESLint below v7.25
+
 # [3.3.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.2.0...v3.3.0) (2020-08-08)
 
 
