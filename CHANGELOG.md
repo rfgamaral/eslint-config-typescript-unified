@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v4.0.0...v5.0.0) (2021-04-24)
+
+
+### Bug Fixes
+
+* stop using the legacy prettier configs ([9c57202](https://github.com/rfgamaral/eslint-config-typescript-unified/commit/9c5720236b6cb737ed9d8559e42147fb2eeb54e4))
+
+
+### BREAKING CHANGES
+
+* recently published versions are broken
+
 # [4.0.0](https://github.com/rfgamaral/eslint-config-typescript-unified/compare/v3.3.0...v4.0.0) (2021-04-24)
 
 
