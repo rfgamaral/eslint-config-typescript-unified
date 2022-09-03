@@ -8,7 +8,7 @@
     ":dependencyDashboard",
     ":disablePeerDependencies",
     ":disableRateLimiting",
-    ":enableVulnerabilityAlerts",
+    ":enableVulnerabilityAlertsWithLabel(security)",
     ":label(dependencies)",
     ":pinAllExceptPeerDependencies",
     ":timezone(Europe/Lisbon)",
