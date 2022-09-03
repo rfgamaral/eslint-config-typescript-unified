@@ -1,4 +1,4 @@
-const eslintSemanticsConfiguration = require('../eslint-semantics');
+const eslintSemanticsConfiguration = require('../eslint-semantics')
 
 describe('ESLint', () => {
     describe('with semantics rules', () => {
@@ -14,7 +14,7 @@ describe('ESLint', () => {
                 parser: '@typescript-eslint/parser',
                 parserOptions: { project: './tsconfig.json' },
                 rules: { 'no-undef': 'off' },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

@@ -1,4 +1,4 @@
-const defaultSemanticsConfiguration = require('../semantics');
+const defaultSemanticsConfiguration = require('../semantics')
 
 describe('Default', () => {
     describe('with semantics rules', () => {
@@ -12,7 +12,7 @@ describe('Default', () => {
                 parser: '@typescript-eslint/parser',
                 parserOptions: { project: './tsconfig.json' },
                 rules: { 'no-undef': 'off' },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

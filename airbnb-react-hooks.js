@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const airbnbReactConfiguration = require('./airbnb-react');
+const airbnbReactConfiguration = require('./airbnb-react')
 
 module.exports = {
     ...airbnbReactConfiguration,
@@ -9,4 +9,4 @@ module.exports = {
         'airbnb/hooks',
         ...airbnbReactConfiguration.extends.slice(1, airbnbReactConfiguration.extends.length),
     ],
-};
+}

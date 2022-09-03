@@ -1,4 +1,4 @@
-const recommendedReactHooksConfiguration = require('../recommended-react-hooks');
+const recommendedReactHooksConfiguration = require('../recommended-react-hooks')
 
 describe('Airbnb (React + Hooks)', () => {
     test('configuration is exported correctly', () => {
@@ -88,6 +88,6 @@ describe('Airbnb (React + Hooks)', () => {
                     },
                 },
             },
-        });
-    });
-});
+        })
+    })
+})

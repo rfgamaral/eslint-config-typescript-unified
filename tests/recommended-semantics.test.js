@@ -1,4 +1,4 @@
-const recommendedSemanticsConfiguration = require('../recommended-semantics');
+const recommendedSemanticsConfiguration = require('../recommended-semantics')
 
 describe('Airbnb', () => {
     describe('with semantics rules', () => {
@@ -81,7 +81,7 @@ describe('Airbnb', () => {
                         },
                     },
                 },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

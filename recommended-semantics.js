@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const recommendedConfiguration = require('./recommended');
+const recommendedConfiguration = require('./recommended')
 
 module.exports = {
     ...recommendedConfiguration,
@@ -9,4 +9,4 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         ...recommendedConfiguration.extends.slice(3, recommendedConfiguration.extends.length),
     ],
-};
+}

@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const airbnbConfiguration = require('./airbnb');
+const airbnbConfiguration = require('./airbnb')
 
 module.exports = {
     ...airbnbConfiguration,
@@ -43,4 +43,4 @@ module.exports = {
         'import/prefer-default-export': 'off',
         'prettier/prettier': 'warn',
     },
-};
+}

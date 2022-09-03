@@ -1,4 +1,4 @@
-const airbnbConfiguration = require('../airbnb');
+const airbnbConfiguration = require('../airbnb')
 
 describe('Airbnb', () => {
     test('configuration is exported correctly', () => {
@@ -35,6 +35,6 @@ describe('Airbnb', () => {
                     },
                 },
             },
-        });
-    });
-});
+        })
+    })
+})

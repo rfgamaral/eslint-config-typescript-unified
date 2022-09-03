@@ -1,4 +1,4 @@
-const defaultConfiguration = require('../');
+const defaultConfiguration = require('../')
 
 describe('Default', () => {
     test('configuration is exported correctly', () => {
@@ -7,6 +7,6 @@ describe('Default', () => {
             parser: '@typescript-eslint/parser',
             parserOptions: { project: './tsconfig.json' },
             rules: { 'no-undef': 'off' },
-        });
-    });
-});
+        })
+    })
+})

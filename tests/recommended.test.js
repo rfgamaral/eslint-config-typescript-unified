@@ -1,4 +1,4 @@
-const recommendedConfiguration = require('../recommended');
+const recommendedConfiguration = require('../recommended')
 
 describe('Recommended', () => {
     test('configuration is exported correctly', () => {
@@ -79,6 +79,6 @@ describe('Recommended', () => {
                     },
                 },
             },
-        });
-    });
-});
+        })
+    })
+})

@@ -1,4 +1,4 @@
-const airbnbReactConfiguration = require('../airbnb-react');
+const airbnbReactConfiguration = require('../airbnb-react')
 
 describe('Airbnb (React)', () => {
     test('configuration is exported correctly', () => {
@@ -43,6 +43,6 @@ describe('Airbnb (React)', () => {
                     },
                 },
             },
-        });
-    });
-});
+        })
+    })
+})

@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
     extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
@@ -9,4 +9,4 @@ module.exports = {
     rules: {
         'no-undef': 'off',
     },
-};
+}

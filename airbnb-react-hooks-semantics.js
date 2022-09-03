@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const airbnbReactHooksConfiguration = require('./airbnb-react-hooks');
+const airbnbReactHooksConfiguration = require('./airbnb-react-hooks')
 
 module.exports = {
     ...airbnbReactHooksConfiguration,
@@ -9,7 +9,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         ...airbnbReactHooksConfiguration.extends.slice(
             4,
-            airbnbReactHooksConfiguration.extends.length
+            airbnbReactHooksConfiguration.extends.length,
         ),
     ],
-};
+}

@@ -1,4 +1,4 @@
-const recommendedReactConfiguration = require('../recommended-react');
+const recommendedReactConfiguration = require('../recommended-react')
 
 describe('Recommended (React)', () => {
     test('configuration is exported correctly', () => {
@@ -87,6 +87,6 @@ describe('Recommended (React)', () => {
                     },
                 },
             },
-        });
-    });
-});
+        })
+    })
+})

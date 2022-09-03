@@ -1,4 +1,4 @@
-const recommendedReactHooksSemanticsConfiguration = require('../recommended-react-hooks-semantics');
+const recommendedReactHooksSemanticsConfiguration = require('../recommended-react-hooks-semantics')
 
 describe('Airbnb (React + Hooks)', () => {
     describe('with semantics rules', () => {
@@ -90,7 +90,7 @@ describe('Airbnb (React + Hooks)', () => {
                         },
                     },
                 },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

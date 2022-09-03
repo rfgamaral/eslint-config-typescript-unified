@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const airbnbConfiguration = require('./airbnb');
+const airbnbConfiguration = require('./airbnb')
 
 module.exports = {
     ...airbnbConfiguration,
@@ -25,4 +25,4 @@ module.exports = {
             },
         ],
     },
-};
+}

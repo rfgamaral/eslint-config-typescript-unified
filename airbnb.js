@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const defaultConfiguration = require('.');
+const defaultConfiguration = require('.')
 
 module.exports = {
     ...defaultConfiguration,
@@ -25,4 +25,4 @@ module.exports = {
             },
         },
     },
-};
+}

@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const recommendedConfiguration = require('./recommended');
+const recommendedConfiguration = require('./recommended')
 
 module.exports = {
     ...recommendedConfiguration,
@@ -25,4 +25,4 @@ module.exports = {
             },
         ],
     },
-};
+}

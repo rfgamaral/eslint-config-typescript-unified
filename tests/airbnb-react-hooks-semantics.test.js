@@ -1,4 +1,4 @@
-const airbnbReactHooksSemanticsConfiguration = require('../airbnb-react-hooks-semantics');
+const airbnbReactHooksSemanticsConfiguration = require('../airbnb-react-hooks-semantics')
 
 describe('Airbnb (React + Hooks)', () => {
     describe('with semantics rules', () => {
@@ -46,7 +46,7 @@ describe('Airbnb (React + Hooks)', () => {
                         },
                     },
                 },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

@@ -1,4 +1,4 @@
-const recommendedReactSemanticsConfiguration = require('../recommended-react-semantics');
+const recommendedReactSemanticsConfiguration = require('../recommended-react-semantics')
 
 describe('Airbnb (React)', () => {
     describe('with semantics rules', () => {
@@ -89,7 +89,7 @@ describe('Airbnb (React)', () => {
                         },
                     },
                 },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

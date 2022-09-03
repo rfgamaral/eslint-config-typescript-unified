@@ -1,4 +1,4 @@
-const eslintConfiguration = require('../eslint');
+const eslintConfiguration = require('../eslint')
 
 describe('ESLint', () => {
     test('configuration is exported correctly', () => {
@@ -12,6 +12,6 @@ describe('ESLint', () => {
             parser: '@typescript-eslint/parser',
             parserOptions: { project: './tsconfig.json' },
             rules: { 'no-undef': 'off' },
-        });
-    });
-});
+        })
+    })
+})

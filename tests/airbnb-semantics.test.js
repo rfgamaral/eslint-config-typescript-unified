@@ -1,4 +1,4 @@
-const airbnbSemanticsConfiguration = require('../airbnb-semantics');
+const airbnbSemanticsConfiguration = require('../airbnb-semantics')
 
 describe('Airbnb', () => {
     describe('with semantics rules', () => {
@@ -37,7 +37,7 @@ describe('Airbnb', () => {
                         },
                     },
                 },
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const airbnbReactConfiguration = require('./airbnb-react');
+const airbnbReactConfiguration = require('./airbnb-react')
 
 module.exports = {
     ...airbnbReactConfiguration,
@@ -9,4 +9,4 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         ...airbnbReactConfiguration.extends.slice(3, airbnbReactConfiguration.extends.length),
     ],
-};
+}
