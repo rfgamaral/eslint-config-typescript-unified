@@ -5,12 +5,15 @@ describe('Recommended', () => {
         expect(recommendedConfiguration).toEqual({
             extends: [
                 'airbnb-base',
+                'plugin:import/recommended',
                 'plugin:import/typescript',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:prettier/recommended',
             ],
             parser: '@typescript-eslint/parser',
-            parserOptions: { project: './tsconfig.json' },
+            parserOptions: {
+                project: './tsconfig.json',
+            },
             rules: {
                 '@typescript-eslint/explicit-function-return-type': [
                     'warn',
@@ -21,8 +24,6 @@ describe('Recommended', () => {
                     },
                 ],
                 '@typescript-eslint/no-unused-vars': 'off',
-                'no-undef': 'off',
-                'import/exports-last': 'error',
                 'import/extensions': [
                     'error',
                     'ignorePackages',
@@ -32,40 +33,31 @@ describe('Recommended', () => {
                         ts: 'never',
                     },
                 ],
-                'import/group-exports': 'error',
-                'import/no-extraneous-dependencies': [
-                    'error',
-                    {
-                        devDependencies: [
-                            '**/__{mocks,tests}__/**/*.{js,ts}',
-                            '**/*.{spec,test}.{js,ts}',
-                            '**/*.{config,setup}.{js,ts}',
-                        ],
-                    },
-                ],
+                'import/first': 'error',
+                'import/newline-after-import': 'error',
                 'import/no-default-export': 'error',
-                'import/no-deprecated': 'warn',
-                'import/order': [
-                    'error',
+                'import/no-duplicates': 'error',
+                'import/no-named-as-default': 'error',
+                'import/no-named-as-default-member': 'error',
+                'no-undef': 'off',
+                'prettier/prettier': 'warn',
+                'simple-import-sort/exports': 'warn',
+                'simple-import-sort/imports': [
+                    'warn',
                     {
-                        alphabetize: {
-                            caseInsensitive: true,
-                            order: 'asc',
-                        },
                         groups: [
-                            'object',
-                            'builtin',
-                            'external',
-                            'internal',
-                            'parent',
-                            'sibling',
-                            'index',
+                            [expect.stringContaining('|process|')],
+                            ['^\\u0000'],
+                            ['^\\u0000@?\\w.*\\.(s?css|less)$'],
+                            ['^\\u0000\\..*\\.(s?css|less)$'],
+                            ['^@?\\w'],
+                            ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+                            ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+                            ['^.*\\.module\\.css$'],
+                            ['^@?\\w.*\\u0000$', '^[^.].*\\u0000$', '^\\..*\\u0000$'],
                         ],
-                        'newlines-between': 'always',
                     },
                 ],
-                'import/prefer-default-export': 'off',
-                'prettier/prettier': 'warn',
             },
             settings: {
                 'import/ignore': [

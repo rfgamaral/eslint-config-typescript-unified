@@ -5,12 +5,15 @@ describe('Airbnb', () => {
         expect(airbnbConfiguration).toEqual({
             extends: [
                 'airbnb-base',
+                'plugin:import/recommended',
                 'plugin:import/typescript',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:prettier/recommended',
             ],
             parser: '@typescript-eslint/parser',
-            parserOptions: { project: './tsconfig.json' },
+            parserOptions: {
+                project: './tsconfig.json',
+            },
             rules: {
                 'no-undef': 'off',
                 'import/extensions': [

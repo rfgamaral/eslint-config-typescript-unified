@@ -7,13 +7,16 @@ describe('Airbnb (React + Hooks)', () => {
                 extends: [
                     'airbnb',
                     'airbnb/hooks',
+                    'plugin:import/recommended',
                     'plugin:import/typescript',
-                    'plugin:@typescript-eslint/recommended',
                     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+                    'plugin:@typescript-eslint/recommended',
                     'plugin:prettier/recommended',
                 ],
                 parser: '@typescript-eslint/parser',
-                parserOptions: { project: './tsconfig.json' },
+                parserOptions: {
+                    project: './tsconfig.json',
+                },
                 rules: {
                     'no-undef': 'off',
                     'import/extensions': [

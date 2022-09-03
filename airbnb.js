@@ -4,7 +4,12 @@ const defaultConfiguration = require('.')
 
 module.exports = {
     ...defaultConfiguration,
-    extends: ['airbnb-base', 'plugin:import/typescript', ...defaultConfiguration.extends],
+    extends: [
+        'airbnb-base',
+        'plugin:import/recommended',
+        'plugin:import/typescript',
+        ...defaultConfiguration.extends,
+    ],
     rules: {
         ...defaultConfiguration.rules,
         'import/extensions': [
