@@ -34,13 +34,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install all project dependencies
-        run: yarn install
+        run: npm install
 
       - name: Perform static code analysis
-        run: yarn run eslint
+        run: npm run eslint
 
       - name: Perform unit testing
-        run: yarn run test:ci
+        run: npm run test:ci
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3

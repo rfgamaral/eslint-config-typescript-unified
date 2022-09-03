@@ -16,11 +16,7 @@ A unified [ESLint](https://eslint.org/) configuration with sensible defaults for
 This package provides multiple [ESLint Shareable Configurations](https://eslint.org/docs/developer-guide/shareable-configs) for your convenience. To make use of any of them, you must first install [`eslint`](https://github.com/eslint/eslint), [`prettier`](https://github.com/prettier/prettier) and [`typescript`](https://github.com/Microsoft/TypeScript) since this package does not do it for you. Then install it with:
 
 ```sh
-# npm
 npm install --save-dev @rfgamaral/eslint-config-typescript-unified
-
-# Yarn
-yarn add --dev @rfgamaral/eslint-config-typescript-unified
 ```
 
 ## Usage

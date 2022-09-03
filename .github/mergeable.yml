@@ -19,4 +19,4 @@ mergeable:
       - do: dependent
         changed:
           file: 'package.json'
-          files: ['yarn.lock']
+          files: ['package-lock.json']
