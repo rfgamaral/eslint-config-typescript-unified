@@ -5,7 +5,7 @@
   "main": "./index.js",
   "author": {
     "name": "Ricardo Amaral",
-    "email": "master@ricardoamaral.net"
+    "email": "hello@ricardoamaral.net"
   },
   "license": "MIT",
   "repository": "https://github.com/rfgamaral/eslint-config-typescript-unified",
